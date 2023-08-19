@@ -1,0 +1,43 @@
+{
+    "name": "decap-cms-widget-starter",
+    "version": "0.0.0",
+    "description": "A starter template for custom widget development",
+    "main": "dist/main.js",
+    "keywords": [
+        "netlify-cms-widget",
+        "decap-cms-widget",
+        "netlify-cms",
+        "decap-cms",
+        "starter"
+    ],
+    "repository": {
+        "url": "git@github.com:iamspark1e/decap-cms-widget-starter.git"
+    },
+    "homepage": "https://github.com/iamspark1e/decap-cms-widget-starter",
+    "author": "iamspark1e",
+    "license": "MIT",
+    "devDependencies": {
+        "@rollup/plugin-replace": "^5.0.2",
+        "@vitejs/plugin-react": "^4.0.4",
+        "netlify-cms": "^2.10.192",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "vite": "^4.4.9",
+        "vite-plugin-css-injected-by-js": "^3.3.0"
+    },
+    "dependencies": {
+        "prop-types": "^15.8.1",
+        "rollup-plugin-copy": "^3.4.0"
+    },
+    "peerDependencies": {
+        "react": "^16"
+    },
+    "engines": {
+        "node": ">=18"
+    },
+    "scripts": {
+        "dev": "vite",
+        "build": "NODE_ENV=production vite build",
+        "preview": "vite preview"
+    }
+}

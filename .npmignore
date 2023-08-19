@@ -1,0 +1,7 @@
+node_modules
+public
+.gitignore
+vite.config.js
+dist
+!dist/main.js
+!dist/main.js.map
