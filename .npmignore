@@ -1,7 +1,9 @@
 node_modules
 public
+index.html
 .gitignore
 vite.config.js
 dist
+src/*
 !dist/main.js
 !dist/main.js.map
