@@ -1,6 +1,6 @@
 {
     "name": "decap-cms-widget-starter",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "A starter template for custom Decap CMS widget development, with Vite",
     "main": "dist/main.js",
     "keywords": [
