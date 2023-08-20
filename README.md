@@ -11,7 +11,7 @@ To use this template, you can use degit tool for cloning:
 npx degit iamspark1e/decap-cms-widget-starter my-widget
 ```
 
-Then you can start developing your unplugin 🔥
+Then you can start developing your widget.
 
 To test your plugin, run: `npm run dev`
 To release a new widget, run: `npm run build`, then publish to NPM.
