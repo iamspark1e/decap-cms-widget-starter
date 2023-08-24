@@ -32,7 +32,7 @@ export default defineConfig(({ command, mode }) => {
                 targets: [{
                     src: 'index.html',
                     dest: 'dist',
-                    transform: (contents, filename) => contents.toString().replace('<script type="module" src="./src/main.js"></script>', '<script src="./main.js"></script>')
+                    transform: (contents, filename) => contents.toString().replace('<script type="module" src="./src/main.js"></script>', '<script src="./main.js"></script><script>CMS.registerWidget("test", window.StarterControl, window.StarterPreview);</script>')
                 }],
                 hook: "writeBundle"
             })
