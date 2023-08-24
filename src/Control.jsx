@@ -41,7 +41,7 @@ export default class Control extends React.Component {
         } = this.props;
         return (
             <div>
-                <p>Control.jsx, You can put some text into <code>INPUT</code></p>
+                <p>Control.jsx, You can put some text into <code>&lt;input /&gt;</code></p>
                 <textarea style={{border: "1px solid #000;", marginTop: 10}} value={value} onChange={(e) => {onChange(e.target.value)}}></textarea>
             </div>
         )
