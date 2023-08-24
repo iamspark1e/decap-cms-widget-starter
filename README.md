@@ -18,6 +18,8 @@ npm install
 npm run dev
 ```
 
+> If you need to change running port, you can pass it via environment variable, for example, `PORT=18080 npm run dev`
+
 After the dev server started, you can modify the `Control.jsx` and `Preivew.jsx` as you wish, dev server will be refreshed automatically with HMR, powered by Vite.
 
 ### Developing Widget
