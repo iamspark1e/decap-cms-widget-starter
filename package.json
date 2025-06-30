@@ -19,8 +19,8 @@
     "devDependencies": {
         "@rollup/plugin-replace": "^5.0.2",
         "@vitejs/plugin-react": "^4.0.4",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0",
+        "react": "^19.1.0",
+        "react-dom": "^19.1.0",
         "vite": "^4.4.9",
         "vite-plugin-css-injected-by-js": "^3.3.0"
     },
@@ -29,7 +29,7 @@
         "rollup-plugin-copy": "^3.4.0"
     },
     "peerDependencies": {
-        "react": "^16"
+        "react": "^19.1.0"
     },
     "engines": {
         "node": ">=18"
